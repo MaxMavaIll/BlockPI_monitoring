@@ -26,7 +26,7 @@ sudo apt update && sudo apt upgrade -y
 ```
 ![Image text](https://github.com/cybernekit/RouterSetupGuide/blob/main/img/Screenshot%20from%202022-05-17%2016-49-11.png)
 
-### Устанавливаем docker
+### Установлюємо docker
 (не обов'язково якщо встановлений docker)
 ```
 sudo apt update
@@ -38,7 +38,7 @@ apt-cache policy docker-ce
 sudo apt install docker-ce
 
 ```
-### Устанавливаем git
+### Установлюємо git
 (не обов'язково якщо встановлений git)
 ```
 apt install git
