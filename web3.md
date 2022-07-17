@@ -1,7 +1,7 @@
 # BlockPI_monitoring ![Знімок екрану з 2022-07-17 08-56-01](https://user-images.githubusercontent.com/102728347/179386027-b97e9095-fa40-4540-8c22-c32c41f165e8.png)
 
 Послідовнічть дій:
-* [Встановлюємо grafana і prometheus на сервер де не працює BlockPI]()
+* [Встановлюємо grafana і prometheus на сервер де не працює BlockPI](https://github.com/MaxMavaIll/BlockPI_monitoring/blob/main/web3.md#%D0%B2%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D1%8E%D1%94%D0%BC%D0%BE-grafana-%D1%96-prometheus-%D0%BD%D0%B0-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80-%D0%B4%D0%B5-%D0%BD%D0%B5-%D0%BF%D1%80%D0%B0%D1%86%D1%8E%D1%94-blockpi)
 * Встановлюємоно node-exporter насервер де знаходться BlockPI
 * Налаштування конфігурації prometheus
 * Налаштування Grafana
