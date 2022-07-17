@@ -1,11 +1,3 @@
-# BlockPI_monitoring ![Знімок екрану з 2022-07-17 08-56-01](https://user-images.githubusercontent.com/102728347/179386027-b97e9095-fa40-4540-8c22-c32c41f165e8.png) 
-
-Послідовнічть дій:
-* [Встановлюємо grafana і prometheus на сервер де не працює BlockPI](https://github.com/MaxMavaIll/BlockPI_monitoring/blob/main/web3.md#%D0%B2%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D1%8E%D1%94%D0%BC%D0%BE-grafana-%D1%96-prometheus-%D0%BD%D0%B0-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80-%D0%B4%D0%B5-%D0%BD%D0%B5-%D0%BF%D1%80%D0%B0%D1%86%D1%8E%D1%94-blockpi)
-* [Встановлюємоно node-exporter насервер де знаходться BlockPI](https://github.com/MaxMavaIll/BlockPI_monitoring/blob/main/web3.md#%D0%B2%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D1%8E%D1%94%D0%BC%D0%BE-node-exporter-%D0%BD%D0%B0-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80-%D0%B4%D0%B5-%D0%B7%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D1%82%D1%8C%D1%81%D1%8F-blockpi)
-* [Налаштування конфігурації prometheus](https://github.com/MaxMavaIll/BlockPI_monitoring/blob/main/web3.md#%D0%BD%D0%B0%D0%BB%D0%B0%D1%88%D1%82%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F-%D0%BA%D0%BE%D0%BD%D1%84%D1%96%D0%B3%D1%83%D1%80%D0%B0%D1%86%D1%96%D1%97-prometheus)
-* [Налаштування Grafana](https://github.com/MaxMavaIll/BlockPI_monitoring/blob/main/web3.md#%D0%BD%D0%B0%D0%BB%D0%B0%D1%88%D1%82%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F-grafana)
-* [Настройка панелі HyperNode](https://github.com/MaxMavaIll/BlockPI_monitoring/blob/main/web3.md#%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-%D0%BF%D0%B0%D0%BD%D0%B5%D0%BB%D1%96-hypernode)
 
 
 
@@ -22,7 +14,8 @@ sudo su
 sudo apt update && sudo apt upgrade -y
 
 ```
-![Image text](https://github.com/cybernekit/RouterSetupGuide/blob/main/img/Screenshot%20from%202022-05-17%2016-49-11.png)
+![Знімок екрану з 2022-07-17 20-57-12](https://user-images.githubusercontent.com/102728347/179419501-e4e929f5-8865-441b-95d2-da789601523a.png)
+
 ### Установлюємо docker
 (не обов'язково якщо встановлений docker)
 ```
@@ -49,7 +42,7 @@ git clone https://github.com/cybernekit/Grafana-Prometheus.git
 cd ~/Grafana-Prometheus
 
 ```
-![Screenshot from 2022-05-28 13-24-48](https://user-images.githubusercontent.com/59205554/170821373-17d41ca2-0a57-4721-a64d-1dce8ee9f8a3.png)
+![Знімок екрану з 2022-07-17 20-58-03](https://user-images.githubusercontent.com/102728347/179419552-96119570-2bc5-41e1-9885-fbddb1e1b22d.png)
 
 ### Створюємо контейнер
 ```
@@ -58,7 +51,7 @@ sudo docker stack deploy -c ~/Grafana-Prometheus/docker-compose.yml monitoring
 
 ```
 
-![Screenshot from 2022-07-16 16-00-16](https://user-images.githubusercontent.com/102728347/179355943-5608a86a-2b56-4a56-b2f7-b31afaabc575.png)
+![Знімок екрану з 2022-07-17 20-59-00](https://user-images.githubusercontent.com/102728347/179419593-96511073-ddc2-4763-8e84-032b8efff263.png)
 
 
 ### Провіряємо чи запустилися контейнери
@@ -69,7 +62,7 @@ sudo docker ps
 
 ```
 
-![Screenshot from 2022-05-28 13-35-21](https://user-images.githubusercontent.com/59205554/170821748-022e38d8-d824-465a-8979-334cff2ca31f.png)
+![Знімок екрану з 2022-07-17 21-01-08](https://user-images.githubusercontent.com/102728347/179419606-c73204ba-3eac-46db-bdf7-f26d2d786a31.png)
 
  
 # Встановлюємо node-exporter на сервер де знаходться BlockPI
@@ -99,7 +92,7 @@ sed -i 's/your_address/<Your_address>/' /var/lib/docker/volumes/monitoring_prom-
 sudo docker ps
 
 ```
-![Screenshot from 2022-07-16 15-17-24](https://user-images.githubusercontent.com/102728347/179354582-efc6efda-bd83-4a37-93c6-0f3a2b43e6e8.png)
+![Знімок екрану з 2022-07-17 21-07-32](https://user-images.githubusercontent.com/102728347/179419613-5d30a29e-0927-4d8d-a89c-fac291d63473.png)
 
 ```
 sudo docker restart <CONTAINER ID>
