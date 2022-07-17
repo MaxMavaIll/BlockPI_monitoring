@@ -149,7 +149,8 @@ prometheus
 
 # Настройка панелі HyperNode
 
-Натискаємо плюс -> import
+Натискаємо ![Знімок екрану з 2022-07-17 09-57-27](https://user-images.githubusercontent.com/102728347/179387662-1cbaf5a5-7f13-4772-8f9c-04a294a8e5d7.png)
+ -> import
 
 Ось що ми побачимо  
 ![Screenshot from 2022-07-16 17-04-14](https://user-images.githubusercontent.com/102728347/179358209-ecd023cf-1ca3-47f9-82b5-5c20b5ceb039.png)
