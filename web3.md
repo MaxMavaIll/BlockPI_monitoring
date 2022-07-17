@@ -1,18 +1,15 @@
 # BlockPI_monitoring ![Знімок екрану з 2022-07-17 08-56-01](https://user-images.githubusercontent.com/102728347/179386027-b97e9095-fa40-4540-8c22-c32c41f165e8.png)
 
-1. Встановлюємо grafana і prometheus на сервер де не працює BlockPI
-2. Встановлюємоно node-exporter насервер де знаходться BlockPI
-3. Налаштування конфігурації prometheus
-4. Налаштування Grafana
-5. Настройка панелі Klaytn
+Послідовнічть дій:
+* [Встановлюємо grafana і prometheus на сервер де не працює BlockPI]()
+* Встановлюємоно node-exporter насервер де знаходться BlockPI
+* Налаштування конфігурації prometheus
+* Налаштування Grafana
+* Настройка панелі HyperNode
 
 
 
-# Встановлюємо grafana, prometheus i node-exporter
-
-Grafana - це платформа для візуалізації моніторингу та аналізу даних
-
-Для встновлення Grafana і робочої схеми ми повині також встановити такі прогарами як Prometheus і Node-exporte. 
+# Встановлюємо grafana і prometheus на сервер де не працює BlockPI.
 
 ### Заходимо в root користувача
 ```
@@ -73,6 +70,10 @@ sudo docker ps
 ```
 
 ![Screenshot from 2022-05-28 13-35-21](https://user-images.githubusercontent.com/59205554/170821748-022e38d8-d824-465a-8979-334cff2ca31f.png)
+
+ 
+# Встановлюємо node-exporter на сервер де знаходться BlockPI
+
 
 
 # Налаштування конфігурації prometheus
@@ -153,7 +154,6 @@ prometheus
 і вставляємо її в поле `Import via panel json`
 
 * [HyperNode](https://github.com/MaxMavaIll/BlockPI_monitoring/blob/main/HyperNode.json)
-* [Klaytn](https://github.com/MaxMavaIll/BlockPI_monitoring/blob/main/Klaytn.json)
 
 Самого початку вам викине помилку, але для того щоб все запрацювало потрібно зайти в `dashboard settings` -> `Variables`
 
