@@ -154,7 +154,7 @@ prometheus
 Ось що ми побачимо  
 ![Screenshot from 2022-07-16 17-04-14](https://user-images.githubusercontent.com/102728347/179358209-ecd023cf-1ca3-47f9-82b5-5c20b5ceb039.png)
 
-Вибираємо яку хочемо загрузити таблицю від розробників BlockPI
+Завантажуємо таблицю від розробників BlockPI
 і вставляємо її в поле `Import via panel json`
 
 * [HyperNode](https://github.com/MaxMavaIll/BlockPI_monitoring/blob/main/HyperNode.json)
