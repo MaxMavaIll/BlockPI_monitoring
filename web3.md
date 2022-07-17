@@ -172,11 +172,20 @@ prometheus
 ![Screenshot from 2022-07-17 00-23-24](https://user-images.githubusercontent.com/102728347/179372346-c3cde8c1-49b6-45d0-ac90-1a5e42a37f67.png)
 
 Виходимо на основний екран і натискаємо `rpc Average throughput per minute` -> `edit` і `Number of work coroutines` -> `edit`
-![Screenshot from 2022-07-17 00-27-14](https://user-images.githubusercontent.com/102728347/179372502-fec90a30-9cb4-4242-9016-0ff83a739dba.png)
+
+![Screenshot from 2022-07-17 10-04-02](https://user-images.githubusercontent.com/102728347/179387810-94a4ed85-b060-489a-85f1-742c4fce159e.png)
 
 Також вибираєте prometheus і натискаєте `apply`
-![Screenshot from 2022-07-17 00-32-41](https://user-images.githubusercontent.com/102728347/179372586-52b32e64-d397-4d31-8328-9d34fa1d3960.png)
 
+![Screenshot from 2022-07-17 10-02-01](https://user-images.githubusercontent.com/102728347/179387822-0beeee9f-17e5-4d4b-80d7-e374235e6d8f.png)
+
+
+Терер щоб все запустит. Виходимо на основний екран де знаходяться dashboards і натискаємо `x` 
+Вам запропонує зберегти dashboard. 
+Зберігаємо його.
 
 # Вітаю тепер ти можеш відсліковувати свої характеристики
+### Вуаля.....
+
+![Screenshot from 2022-07-17 10-12-09](https://user-images.githubusercontent.com/102728347/179388047-a371b0ad-9ed4-4654-8da5-79d88c20aee2.png)
 
