@@ -171,7 +171,7 @@ prometheus
 
 ![Screenshot from 2022-07-17 00-23-24](https://user-images.githubusercontent.com/102728347/179372346-c3cde8c1-49b6-45d0-ac90-1a5e42a37f67.png)
 
-Виходимо на основний екран і натискаємо `Klaynt node status` -> `edit`, а потім также `Klaynt node hight` -> `edit` і `klaytn use memory` -> `edit`
+Виходимо на основний екран і натискаємо `rpc Average throughput per minute` -> `edit` і `Number of work coroutines` -> `edit`
 ![Screenshot from 2022-07-17 00-27-14](https://user-images.githubusercontent.com/102728347/179372502-fec90a30-9cb4-4242-9016-0ff83a739dba.png)
 
 Також вибираєте prometheus і натискаєте `apply`
