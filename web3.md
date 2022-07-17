@@ -1,4 +1,4 @@
-# BlockPI_monitoring ![Logo![Знімок екрану з 2022-07-17 08-56-01](https://user-images.githubusercontent.com/102728347/179386027-b97e9095-fa40-4540-8c22-c32c41f165e8.png)](https://blockpi.io/)
+# BlockPI_monitoring [[Знімок екрану з 2022-07-17 08-56-01](https://user-images.githubusercontent.com/102728347/179386027-b97e9095-fa40-4540-8c22-c32c41f165e8.png)(https://blockpi.io/)]
 
 1. Встановлюємо grafana і prometheus на сервер де не працює BlockPI
 2. Встановлюємоно node-exporter насервер де знаходться BlockPI
