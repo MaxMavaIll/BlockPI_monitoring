@@ -159,9 +159,11 @@ prometheus
 
 * [HyperNode](https://github.com/MaxMavaIll/BlockPI_monitoring/blob/main/HyperNode.json)
 
-Самого початку вам викине помилку, але для того щоб все запрацювало потрібно зайти в `dashboard settings` -> `Variables`
+Самого початку у вас виникне помилка.
 
-![AOfRysh](https://user-images.githubusercontent.com/102728347/179372068-436382f2-18b6-457d-be8a-7d39afc12751.jpeg)
+![Screenshot from 2022-07-17 09-50-00](https://user-images.githubusercontent.com/102728347/179387475-215260fb-1f6f-441e-bfa2-f1c2a9c138f4.png)
+
+Але для того щоб все запрацювало потрібно зайти в `dashboard settings` -> `Variables`
 
 ![Screenshot from 2022-07-17 00-18-46](https://user-images.githubusercontent.com/102728347/179372230-96412459-f16d-4c85-bd81-8710e044e1c5.png)
 
