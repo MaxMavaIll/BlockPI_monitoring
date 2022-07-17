@@ -75,7 +75,8 @@ sudo docker ps
 # Встановлюємо node-exporter на сервер де знаходться BlockPI
 Встановлюємо node-exporter через таку команду
 ```
-wget  && chmod +x node-exporter.sh && bash node-exporter.sh
+wget https://raw.githubusercontent.com/MaxMavaIll/BlockPI_monitoring/main/node-exporter.sh  && chmod +x node-exporter.sh && bash node-exporter.sh
+
 ```
 
 
